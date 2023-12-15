@@ -10,8 +10,13 @@ This Flask application helps users find restaurants based on cuisine, price rang
 - Python 3.x
 
 ### Required Python Packages
-- Flask
+#### Built-in Packages
 - Json (for loading and handling data)
+- os
+#### Non Built-in Packages
+- flask
+- requests
+- urlparse, parse_qs (from urllib.parse)
 
 ## Setup and Installation
 1. **Clone/Download the Repository**: Make sure you have the complete project files, including the Python scripts and the `templates` folder.
