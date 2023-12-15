@@ -1,9 +1,13 @@
-# SI_507_Final_Proj
+# README for Restaurant Finder Flask Application
 ## Name: Shushun Ren, UM-ID: 24284779
 This is the folder for the final project of SI 507 (Fall 2023) course
 
-Required python packages for use:
-1. numpy
-2. pandas
+## Overview
+This Flask application helps users find restaurants based on cuisine, price range, rating, and distance from a specified location. It uses a tree data structure to organize and navigate through restaurant data.
+
+## Requirements
+### Python Version
+- Python 3.x
+
 
 ## Data Structure (trees)
