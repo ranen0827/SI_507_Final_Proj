@@ -1,5 +1,5 @@
 # README for Restaurant Finder Flask Application
-## Name: Shushun Ren, UM-ID: 24284779
+## Name: `Shushun Ren`, UM-ID: `24284779`, email: `shushunr@umich.edu`
 This is the folder for the final project of SI 507 (Fall 2023) course
 
 ## Overview
@@ -27,5 +27,21 @@ pip install Flask
 python app.py
 ```
 2. **Accessing the Application**: Open a web browser and go to `http://localhost:5000`. This will load the main page of the application.
+
+## Interacting with the Program
+1. **Making Selections**: On the main page, you will be presented with a series of options, starting with cuisine types. Select your preference to proceed to the next set of options (price range, rating, and distance).
+2. **Navigating Through Choices**: Continue selecting options at each level. After each choice, the application will present the next relevant set of options based on the tree structure.
+3. **Viewing Recommendations**: Once you've made selections at all levels, the application will display a list of restaurant recommendations that match your criteria.
+4. **Restarting or Changing Criteria**: To start over or change your criteria, simply navigate back to the home page (`http://localhost:5000`).
+
+## Special Instructions
+- If the application relies on external APIs or data sources, ensure you have the necessary API keys or data files in place as required by your implementation.
+- The tree data structure must be correctly set up in the tree.json file for the application to function properly.
+
+## Troubleshooting
+- If you encounter errors related to missing templates, verify that the templates folder is in the same directory as app.py and contains template.html
+- For issues related to data, ensure that the JSON file is correctly formatted and accessible to the Flask application.
+
+For further assistance or bug reports, feel free to contact `shushunr@umich.edu`.
 
 ## Data Structure (trees)
