@@ -48,3 +48,6 @@ python app.py
 - For issues related to data, ensure that the JSON file is correctly formatted and accessible to the Flask application.
 
 For further assistance or bug reports, feel free to contact `shushunr@umich.edu`.
+
+## Data Structure
+- For tree data structure, please see 
