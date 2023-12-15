@@ -9,5 +9,10 @@ This Flask application helps users find restaurants based on cuisine, price rang
 ### Python Version
 - Python 3.x
 
+### Required Python Packages
+```
+ddd
+```
+
 
 ## Data Structure (trees)
