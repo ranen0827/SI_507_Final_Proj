@@ -24,7 +24,8 @@ pip install Flask
 ## Running the Application
 1. **Start the Flask Server**: Navigate to the directory containing the `app.py` file in the command line and run the command:
 ```python
-
+python app.py
 ```
+2. **Accessing the Application**: Open a web browser and go to `http://localhost:5000`. This will load the main page of the application.
 
 ## Data Structure (trees)
