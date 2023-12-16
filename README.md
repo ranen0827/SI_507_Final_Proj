@@ -28,6 +28,7 @@ pip install Flask
 
 ## Data Structure
 **Note!** - For tree **data structure**, please refer to the `data_structure.md` file, which fully explained how data is organized into data structure.
+- `read_json.py`, `export_json.py`, and `tree.json` are provided that demonstrate organization of data into data structures.
 
 ## Running the Application
 1. **Start the Flask server**: Navigate to the directory containing the `app.py` file in the command line and run the command:
