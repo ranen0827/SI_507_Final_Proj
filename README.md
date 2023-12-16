@@ -33,7 +33,7 @@ pip install Flask
   - `create_tree.py` is a python file that constructs your graphs or trees from your stored data using classes, note you should replace `combined_df` with the final dataframe (ready to create a tree with) before running the code.
   - `export_json.py` is json file to serialize the trees.
   - `tree.json` is a json file with the trees data structure.
-  - `read_json.py` is a stand alone python file that reads the json of your graphs or trees.
+  - `read_json.py` is a stand alone python file that reads the json of the graphs or trees.
 - The `Final_project.ipynb` file combines those files together in different chunks. Feel free to do the above steps within this file.
  
 ## Running the Application
