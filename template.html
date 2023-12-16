@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Finder</title>
+</head>
+<body>
+    <h2>Find Your Favorite Restaurant in San Francisco, CA</h2>
+    <h3>Hint: Select one or more criteria based on your needs, and click "Search"</h3>
+    <form method="post">
+        <!-- Dropdown for Cuisine -->
+        <label for="main_category">Cuisine:</label>
+        <select name="main_category" id="main_category">
+            <option value="">Select Cuisine</option>
+            {% for cuisine in cuisines %}
+            <option value="{{ cuisine }}">{{ cuisine }}</option>
+            {% endfor %}
+        </select>
+
+        <!-- Dropdown for Price Range -->
+        <label for="price">Price Range:</label>
+        <select name="price" id="price">
+            <option value="">Select Price Range</option>
+            {% for price in prices %}
+            <option value="{{ price }}">{{ price }}</option>
+            {% endfor %}
+        </select>
+
+        <!-- Dropdown for Rating -->
+        <label for="rating">Rating:</label>
+        <select name="rating" id="rating">
+                <option value="">Select Rating</option>
+                <option value="4.5">Greater than 4.5</option>
+                <option value="4.0">Between 4.0 and 4.5</option>
+                <option value="0">Less than 4.0</option>
+        </select>
+
+        <!-- Dropdown for Distance to Downtown -->
+        <label for="distance">Distance to Downtown:</label>
+        <select name="distance" id="distance">
+                <option value="">Select Distance</option>
+                <option value="500">Less than 500m</option>
+                <option value="1500">Between 500m and 1500m</option>
+                <option value="1501">More than 1500m</option>
+        </select>
+
+        <input type="submit" value="Search">
+    </form>
+
+    <!-- Displaying Filtered Restaurants -->
+    <div>
+        {% for restaurant in restaurants %}
+        <div>
+            <h3>{{ restaurant.name }}</h3>
+            <p>Cuisine Type: {{ restaurant.main_category }}</p>
+            <p>Rating: {{ restaurant.rating }}</p>
+            <p>Price Range: {{ restaurant.price }}</p>
+            <a href="{{ restaurant.url }}" target="_blank">Visit on Yelp</a>
+        </div>
+        {% else %}
+        <p>No restaurants found matching the criteria.</p>
+        {% endfor %}
+    </div>
+</body>
+</html>
