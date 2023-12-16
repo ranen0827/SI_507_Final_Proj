@@ -29,10 +29,11 @@ pip install Flask
 ## Data Structure
 **Note!** - For tree **data structure**, please refer to the `data_structure.md` file, which fully explained how data is organized into data structure.
 - `read_json.py`, `export_json.py`, `create_tree.py` and `tree.json` are provided that demonstrate organization of data into data structures, where:
-  - `export_json.py` is json file to serialize the trees
   - `create_tree.py` is a python file that constructs your graphs or trees from your stored data using classes, note you should replace `combined_df` with the final dataframe (ready to create a tree with) before running the code.
+  - `export_json.py` is json file to serialize the trees.
   - `tree.json` is a json file with the trees data structure.
   - `read_json.py` is a stand alone python file that reads the json of your graphs or trees.
+- The `Final_project.ipynb` file combines those files together in different chunks. Feel free to do the above steps within this file.
  
 ## Running the Application
 1. **Start the Flask server**: Navigate to the directory containing the `app.py` file in the command line and run the command:
