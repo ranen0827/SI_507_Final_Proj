@@ -26,6 +26,9 @@ pip install Flask
 ```
 3. **Prepare data**: Ensure you have a JSON file (e.g., `tree.json`) with the restaurant data structured as a tree. The tree should be built according to the specifications of the `TreeNode` class and should categorize restaurants by cuisine, price, rating, and distance.
 
+## Data Structure
+**Note!** - For tree **data structure**, please refer to the `data_structure.md` file, which fully explained how data is organized into data structure.
+
 ## Running the Application
 1. **Start the Flask server**: Navigate to the directory containing the `app.py` file in the command line and run the command:
 ```python
@@ -48,6 +51,3 @@ python app.py
 - For issues related to data, ensure that the JSON file is correctly formatted and accessible to the Flask application.
 
 For further assistance or bug reports, feel free to contact `shushunr@umich.edu`.
-
-## Data Structure
-**Note!** - For tree **data structure**, please refer to the `data_structure.md` file.
