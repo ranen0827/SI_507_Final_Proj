@@ -50,4 +50,4 @@ python app.py
 For further assistance or bug reports, feel free to contact `shushunr@umich.edu`.
 
 ## Data Structure
-- For tree data structure, please refer to the `data_structure.md` file.
+**Note!** - For tree **data structure**, please refer to the `data_structure.md` file.
