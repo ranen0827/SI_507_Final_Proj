@@ -42,6 +42,7 @@ pip install Flask
 python app.py
 ```
 2. **Accessing the application**: After running app.py, there will be a link `http://127.0.0.1:5000`. Clicking that link will load the main page of the application.
+**Note**: Should use `restaurant.json` file.
 
 ## Interacting with the program
 1. **Making selections**: On the main page, you will be presented with a series of options, starting with cuisine types. Select your preference to proceed to the next set of options (price range, rating, and distance).
