@@ -47,7 +47,7 @@ python app.py
 - The tree data structure must be correctly set up in the `tree.json` file for the application to function properly.
 
 ## Troubleshooting
-- If you encounter errors related to missing templates, verify that the templates folder is in the same directory as app.py and contains template.html
+- If you encounter errors related to missing templates, verify that the templates folder is in the same directory as `app.py` and contains `template.html`
 - For issues related to data, ensure that the JSON file is correctly formatted and accessible to the Flask application.
 
 For further assistance or bug reports, feel free to contact `shushunr@umich.edu`.
