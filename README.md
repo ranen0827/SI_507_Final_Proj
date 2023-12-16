@@ -25,6 +25,7 @@ This Flask application helps users find restaurants based on **cuisine, price ra
 pip install Flask
 ```
 3. **Prepare data**: Ensure you have a JSON file (e.g., `tree.json`) with the restaurant data structured as a tree. The tree should be built according to the specifications of the `TreeNode` class and should categorize restaurants by cuisine, price, rating, and distance.
+4. **Where to start with**:You can start with `Final_project.ipynb` file, in which you can get access to data via API keys, as well as create data into a tree.
 
 ## Data Structure
 **Note!** - For tree **data structure**, please refer to the `data_structure.md` file, which fully explained how data is organized into data structure.
